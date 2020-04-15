@@ -1,0 +1,26 @@
+{
+  "name": "image-handler-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon .",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryce-Soghigian/image-handler-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryce-Soghigian/image-handler-api/issues"
+  },
+  "homepage": "https://github.com/Bryce-Soghigian/image-handler-api#readme",
+  "dependencies": {
+    "cloudinary": "^1.21.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
